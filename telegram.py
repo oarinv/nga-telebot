@@ -5,13 +5,13 @@ from telebot.types import InputMediaPhoto
 
 
 
-Token = ' '#telebot的token
+Token = ' '#修改为自己的telebot的token
 bot = telebot.TeleBot(Token, parse_mode=None)
 
 
 class nga():
-    uid = ''#ngaPassportUid
-    cid = ''#ngaPassportCid
+    uid = ''#修改为自己的ngaPassportUid
+    cid = ''#修改为自己的ngaPassportCid
     url = 'https://bbs.nga.cn/read.php'
     imgUrl = 'https://img.nga.178.com/attachments/'
 
